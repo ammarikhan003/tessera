@@ -1,0 +1,39 @@
+# Data: never committed; download.py reproduces it
+data/**
+!data/*/
+!data/*/.gitkeep
+
+# Large spatial / binary files anywhere
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.parquet
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tableau local working files
+*.twbr
+*.tmp
+
+# OS / editors / secrets
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env

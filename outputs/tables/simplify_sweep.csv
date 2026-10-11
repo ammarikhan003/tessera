@@ -1,0 +1,5 @@
+tolerance_m,vertices,invalid,empty,coverage_valid,max_area_change_pct,geojson_mb
+0.0,350808,0,0,True,0.0,9.784428
+5.0,350371,0,0,True,2.4809855349896104,9.775737
+10.0,350207,0,0,True,30.710257679085405,9.772544
+20.0,348550,0,0,True,50.49717086123551,9.740046

@@ -115,7 +115,7 @@ K_STABILITY_TABLE: Path = TABLES_DIR / "k_stability.csv"
 SMALLEST_CLUSTER_PROFILE_TABLE: Path = TABLES_DIR / "smallest_cluster_profile.csv"
 
 # Final segmentation (step 3c)
-FINAL_K: int = 8  # chosen in step 3b: see k_stability.csv
+FINAL_K: int = 8  # 7 and 8 tie on stability (k_stability.csv); 8 separates older social renters living alone
 OA_SEGMENTS: Path = PROCESSED_DIR / "oa_segments.parquet"
 SEGMENT_SIZES_TABLE: Path = TABLES_DIR / "segment_sizes.csv"
 SEGMENT_PROFILE_TABLE: Path = TABLES_DIR / "segment_profiles.csv"

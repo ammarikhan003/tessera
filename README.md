@@ -80,7 +80,17 @@ for stability:
 | 7 | 0.993 | 0.979 |
 | 8 | 0.994 | 0.976 |
 
-Both are highly reproducible, and k = 8 was chosen. The small cluster that appears
+Both are highly reproducible, so k was chosen on interpretability. Going from 7 to 8
+creates *Older Social Renters Living Alone*: OAs where 27% of households are one
+person aged 66+, against 9% London-wide. At k = 7 these OAs are mostly absorbed into
+family-dominated clusters, including the one that becomes *Social-Rented Family
+Neighbourhoods*, where lone parents with dependent children are twice the London
+rate. Those two groups need different services and offers, so a segmentation meant
+for targeting should separate them. k = 7 agrees very slightly more with LOAC
+(supergroup ARI 0.388 against 0.381), but LOAC agreement was a check, never a
+criterion for choosing k (`outputs/tables/loac_k_sweep.csv`).
+
+The small cluster that appears
 from k = 6 is a real group, not noise. At k = 7 it is 241 OAs where full-time
 students make up 49% of residents aged 16+, against 9% London-wide
 (`outputs/tables/smallest_cluster_profile.csv`). At k = 8 it becomes the 240-OA

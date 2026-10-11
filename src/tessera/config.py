@@ -150,7 +150,7 @@ BOROUGH_HOLES_TABLE: Path = TABLES_DIR / "borough_interior_rings.csv"
 SIMPLIFY_SWEEP_TABLE: Path = TABLES_DIR / "simplify_sweep.csv"
 MAP_ATTRIBUTION: str = (
     "Source: Office for National Statistics licensed under the Open Government Licence v.3.0. "
-    "Contains OS data © Crown copyright and database right 2026. Census 2021 OAs; k-means segmentation."
+    "Contains OS data © Crown copyright and database right 2023. Census 2021 OAs; k-means segmentation."
 )
 GROUP_LABELS: dict[str, str] = {
     "age": "Age",
